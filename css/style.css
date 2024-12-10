@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+body {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: hsl(222, 26%, 31%);
+  height: 100vh;
+  font-family: "League Spartan", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: whitesmoke;
+}
+
+h1{
+  padding-left: 25px;
+}
+
+.btn {
+  border-bottom: 3px solid rgb(155, 153, 153);
+  width: 30%;
+  height: 30%;
+  margin: 7px;
+  padding-top: 5px;
+  padding-bottom: 0;
+  background-color: lightgray;
+  font-size: 30px;
+  font-weight: 700;
+  color: hsl(221, 14%, 31%);
+}
+
+.btn:hover{
+  background-color: rgb(155, 153, 153);
+}
+
+#botonDel:hover, #botonReset:hover{
+  background-color: hsl(224, 28%, 35%);
+}
+
+#botonDel, #botonReset {
+  border-bottom: 3px solid hsl(224, 28%, 35%);
+  background-color: hsl(225, 21%, 49%);
+  color: whitesmoke;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-size: 23px;
+}
+
+#botonIgual:hover{
+  background-color: hsl(6, 70%, 34%);
+}
+
+#botonIgual {
+  border-bottom: 3px solid hsl(6, 70%, 34%);
+  background-color: hsl(6, 63%, 50%);
+  color: whitesmoke;
+}
+
+#fullCalculation {
+  width: 95%;
+  height: 40px;
+  color: hsl(225, 21%, 49%);
+  background-color: hsl(224, 36%, 15%);
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-top: 10px;  
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.calculadora {
+  height: 100%;
+  width: 40%;
+}
+
+#teclado {
+  padding: 30px;
+  margin-top: 10px;
+  background-color: hsl(223, 31%, 20%);
+}
+
+input[type=text] {
+  height: 90px;
+  width: 95%;
+  background-color: hsl(224, 36%, 15%);
+  border: none;
+  color: whitesmoke;
+  padding-right: 25px;
+  padding-left: 25px;
+}
